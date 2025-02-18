@@ -1,0 +1,3 @@
+O dataset analizado pode ser encontrado nessa pagina:
+
+https://www.kaggle.com/code/mariammohamedth/ibm-hr-analytics-employee-attrition-performance 

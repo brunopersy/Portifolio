@@ -1,0 +1,2 @@
+Conta google(colab)
+Bibliotecas: Pandas, Matplotlib, Numpy, Polars
