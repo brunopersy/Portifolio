@@ -1,2 +1,8 @@
 Conta google(colab)
-Bibliotecas: Pandas, Matplotlib, Numpy, Polars
+Instale as seguintes bibliotecas: 
+
+Use método !pip install 'biblioteca'
+Pandas
+Matplotlib
+Numpy
+hvplot(essa bliblioteca tem faz gráficos muito bons)
