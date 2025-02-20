@@ -90,5 +90,3 @@ Se quiser saber mais sobre este projeto ou discutir oportunidades, entre em cont
 LinkedIn: https://www.linkedin.com/in/bruno-eduardo-silva-a8910097
 
 E-mail: tecnicobrunoind@gmail.com
-
-Obs: Este projeto faz parte do meu portfólio como Analista de Dados. Feedbacks são bem-vindos! 🚀
