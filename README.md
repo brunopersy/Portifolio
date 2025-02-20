@@ -1,1 +1,94 @@
-{"nbformat":4,"nbformat_minor":0,"metadata":{"colab":{"provenance":[],"authorship_tag":"ABX9TyOHchhw8gk0kGrzwHdonlkP"},"kernelspec":{"name":"python3","display_name":"Python 3"},"language_info":{"name":"python"}},"cells":[{"cell_type":"markdown","source":["# Conteúdo do README.md\n","readme_content = \"\"\"\n","# IBM HR Analytics Employee Attrition & Performance Analysis\n","\n","## Visão Geral\n","\n","Este projeto realiza uma análise completa do dataset **IBM HR Analytics Employee Attrition & Performance**. Os objetivos principais são:\n","\n","- Investigar os fatores que influenciam a rotatividade de colaboradores (attrition).\n","- Realizar uma análise exploratória dos dados (EDA) para identificar padrões e insights em variáveis como renda mensal, satisfação no trabalho, tempo na empresa e outras.\n","- Desenvolver um modelo preditivo para classificar o risco de attrition entre os funcionários.\n","- Fornecer insights que possam auxiliar profissionais de RH na tomada de decisão.\n","\n","## Descrição dos dados\n","\n","O dataset contém informações sobre os colaboradores da IBM e inclui atributos como:\n","- **Age:** Idade do colaborador.\n","- **Attrition:** Indica se o funcionário saiu da empresa (Sim/Não).\n","- **JobSatisfaction:** Nível de satisfação no trabalho.\n","- **MonthlyIncome:** Renda mensal.\n","- **YearsAtCompany:** Número de anos na empresa.\n","- **Outras Variáveis:** Informações sobre departamento, função, status marital, entre outros.\n","\n","Para mais detalhes, consulte a documentação original no [Kaggle](https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset).\n","\n","## Estrutura do Repositório\n","\n","meu-projeto/\n","├── README.md\n","├── requirements.txt\n","├── notebooks/\n","│   └── analise.ipynb\n","├── data/\n","│   └── (instruções para obtenção do dataset)\n","└── src/\n","    └── main.py\n"],"metadata":{"id":"W028oNdmh8NQ"}}]}
+```IBM HR Analytics: Employee Attrition & Performance
+IBM HR Analytics: Employee Attrition & Performance
+
+
+🔍 Visão Geral
+
+Este projeto analisa o dataset IBM HR Analytics Employee Attrition & Performance, com o objetivo de identificar padrões e insights relacionados à rotatividade de colaboradores (attrition) e fatores que influenciam seu desempenho.
+
+Os principais objetivos são:
+
+Explorar os fatores que levam à saída de funcionários.
+
+Analisar variáveis como satisfação no trabalho, rendimento mensal, tempo na empresa, entre outros.
+
+Desenvolver modelos preditivos para antecipar possíveis desligamentos.
+
+Gerar insights acionáveis para apoiar decisões estratégicas em RH.
+
+
+
+📊 Sobre os Dados
+
+O dataset inclui informações detalhadas sobre os colaboradores, como:
+
+Idade (Age): Faixa etária dos funcionários.
+
+Attrition: Indica se o colaborador saiu da empresa (Sim/Não).
+
+Satisfação no Trabalho (JobSatisfaction): Avaliação do nível de satisfação no trabalho.
+
+Renda Mensal (MonthlyIncome): Salário do colaborador.
+
+Tempo na Empresa (YearsAtCompany): Quantidade de anos trabalhados.
+
+Demais Variáveis: Setor, cargo, estado civil, entre outros.
+
+Os dados estão disponíveis no Kaggle.
+
+
+
+🔧 Ferramentas e Tecnologias
+
+Para a análise e modelagem, foram utilizadas as seguintes tecnologias:
+
+Linguagem: Python
+
+Bibliotecas: Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn
+
+Jupyter Notebook: Para exploração e visualização dos dados
+
+📂 Estrutura do Projeto
+
+meu-projeto/
+├── README.md                # Documentação do projeto
+├── requirements.txt         # Dependências do projeto
+├── notebooks/               # Cadernos Jupyter para análise
+│   ├── EDA.ipynb            # Análise exploratória de dados
+│   ├── modelo_predicao.ipynb# Modelagem preditiva
+├── data/                    # Diretório para os datasets
+│   ├── raw/                 # Dados brutos
+│   ├── processed/           # Dados processados
+└── src/                     # Códigos fonte
+    ├── preprocessing.py     # Funções de tratamento de dados
+    ├── model.py             # Modelos preditivos ```
+
+📈 Resultados e Insights
+
+Identificamos que funcionários com menor satisfação no trabalho e salários mais baixos apresentam maior taxa de rotatividade.
+
+Modelos de machine learning apresentaram acurácia acima de 80% na previsão de attrition.
+
+Insights podem ser utilizados para desenvolver políticas de retenção de talentos e melhoria do ambiente de trabalho.
+
+🔗 Como Executar o Projeto
+
+Clone este repositório:
+
+git clone https://github.com/brunopersy/Portifolio.git
+
+Instale as dependências:
+
+pip install -r requirements.txt
+
+Execute os notebooks para análise e modelagem.
+
+👥 Contato
+
+Se quiser saber mais sobre este projeto ou discutir oportunidades, entre em contato:
+
+LinkedIn: https://www.linkedin.com/in/bruno-eduardo-silva-a8910097
+
+E-mail: tecnicobrunoind@gmail.com
+
+Obs: Este projeto faz parte do meu portfólio como Analista de Dados. Feedbacks são bem-vindos! 🚀
