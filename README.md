@@ -44,9 +44,9 @@ Para a análise e modelagem, foram utilizadas as seguintes tecnologias:
 
 Linguagem: Python
 
-Bibliotecas: Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn
+Bibliotecas: Pandas, NumPy, Matplotlib, Seaborn, Matplotlib e hvplot.
 
-Jupyter Notebook: Para exploração e visualização dos dados
+Google Colab: Para exploração e visualização dos dados
 
 📂 Estrutura do Projeto
 
