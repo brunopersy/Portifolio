@@ -1,3 +1,46 @@
 O dataset analizado pode ser encontrado nessa pagina:
 
 https://www.kaggle.com/code/mariammohamedth/ibm-hr-analytics-employee-attrition-performance 
+
+ou 
+
+Você pode baixar via Colab
+
+Para baixar um dataset do Kaggle via Google Colab, siga estes passos:
+1️⃣ Obter a API Key do Kaggle:
+Acesse Kaggle.
+Clique na sua foto de perfil (canto superior direito) > "Account".
+Role até a seção "API" e clique em "Create New API Token".
+Um arquivo chamado kaggle.json será baixado.
+2️⃣ Fazer Upload da API Key para o Colab:
+No Colab, execute o seguinte código para fazer upload do arquivo kaggle.json:
+
+python
+Copiar
+Editar
+from google.colab import files
+files.upload()
+Após o upload, mova o arquivo para a pasta correta e configure as permissões:
+
+python
+Copiar
+Editar
+!mkdir -p ~/.kaggle
+!mv kaggle.json ~/.kaggle/
+!chmod 600 ~/.kaggle/kaggle.json
+3️⃣ Baixar o Dataset do Kaggle:
+No Kaggle, copie o API Command do dataset desejado (disponível na página do dataset).
+
+Use o comando !kaggle datasets download no Colab. Exemplo:
+
+python
+Copiar
+Editar
+!kaggle datasets download -d pavansubhasht/ibm-hr-analytics-attrition-dataset
+Para extrair o arquivo ZIP:
+
+python
+Copiar
+Editar
+!unzip ibm-hr-analytics-attrition-dataset.zip -d ./data
+Agora o dataset estará disponível para análise dentro do Colab. 🚀
